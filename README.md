@@ -1,2 +1,1 @@
-# landing-page
-Landing page project from TOP lesson.
+Simple landing page project from TOP lesson.
