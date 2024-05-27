@@ -110,6 +110,34 @@ button{
     border-radius: 10px;
 }
 
+/* ---------------------END OF SECTION 2------------------ */
+
+/* ------------------------START OF SECTION 3----------------------*/
+
+.section-three{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 90px;
+}
+
+.god-quote{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.thor{
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
 
 
 
