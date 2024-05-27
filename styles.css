@@ -4,7 +4,7 @@ body{
     flex-direction: column;
 }
 
-h1, p, ul{
+h1, h2, p, ul{
     margin: 0;
     padding: 0;
 }
@@ -14,6 +14,8 @@ ul{
 }
 
 img{
+    border: 5px solid #3882f6;
+    border-radius: 25px;
     height: 300px;
     width: 550px;
 }
@@ -138,6 +140,32 @@ button{
     align-self: flex-end;
 }
 
+/* -----------------------END OF SECTION 3-----------------------------*/
+
+/* ---------------------------------START OF SECTION 4------------------------*/
+
+.section-four{
+    padding: 90px;
+}
+
+.action{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    width: 65%;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-button{
+    align-self: center;
+    border:2px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+/* --------------------------------------END OF SECTION 4--------------------------- */
 
 
 
