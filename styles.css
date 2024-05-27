@@ -2,7 +2,6 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 ul{
@@ -17,6 +16,32 @@ ul{
 .section-one, .section-two, .section-three, .section-four{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1, .start-info h1{
+    color: #f9faf8;
+}
+
+.header h1{
+    font-size: 24px;
+}
+
+.start-info h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.start-info p, button{
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
 }
 
 .section-one{
@@ -30,19 +55,8 @@ ul{
     font-size: 18px;
 }
 
-.header h1, .start-info h1{
-    color: #f9faf8;
-}
-
-.header h1{
-    font-size: 24px;
-}
-
 .start-info{
     display:flex;
 }
 
-.start-info h1{
-    font-size: 48px;
-    font-weight: extra-bold;
-}
+
